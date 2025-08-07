@@ -5,8 +5,8 @@
     256
   ],
   "textures": {
-    "13": "npu:block/atlas/atable",
-    "particle": "npu:block/npunew/door/door_birch_lower"
+    "13": "npu:block/a/atable",
+    "particle": "npu:block/d/door_birch_lower"
   },
   "elements": [
     {

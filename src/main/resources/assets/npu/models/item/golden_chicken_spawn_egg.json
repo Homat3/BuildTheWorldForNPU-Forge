@@ -1,3 +1,6 @@
 {
-  "parent": "minecraft:item/template_spawn_egg"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "npu:item/g/golden_chicken_spawn_egg"
+  }
 }

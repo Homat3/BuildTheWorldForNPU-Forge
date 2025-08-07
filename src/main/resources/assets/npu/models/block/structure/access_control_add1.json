@@ -5,8 +5,8 @@
     256
   ],
   "textures": {
-    "0": "npu:block/ac/acadd1",
-    "particle": "npu:block/ac/acadd1"
+    "0": "npu:block/a/access_control_fix1",
+    "particle": "npu:block/a/access_control_fix1"
   },
   "elements": [
     {

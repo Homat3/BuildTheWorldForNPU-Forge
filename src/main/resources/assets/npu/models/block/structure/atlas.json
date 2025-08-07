@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "npu:block/atlas/atlas",
-    "particle": "npu:block/atlas/atlas"
+    "0": "npu:block/a/atlas",
+    "particle": "npu:block/a/atlas"
   },
   "elements": [
     {
