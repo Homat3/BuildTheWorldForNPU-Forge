@@ -5,8 +5,8 @@
     64
   ],
   "textures": {
-    "0": "npu:block/npunew/air/airconin",
-    "particle": "npu:block/npunew/air/airconin"
+    "0": "npu:block/a/airconin",
+    "particle": "npu:block/a/airconin"
   },
   "elements": [
     {

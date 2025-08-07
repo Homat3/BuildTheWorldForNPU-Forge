@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "npu:block/stonebrick/stonebrick",
-    "1": "npu:block/npunew/wall/shuinizhuanqiang",
-    "particle": "npu:block/stonebrick/stonebrick"
+    "0": "npu:block/s/stonebrick",
+    "1": "npu:block/c/cement_light_white",
+    "particle": "npu:block/s/stonebrick"
   },
   "elements": [
     {

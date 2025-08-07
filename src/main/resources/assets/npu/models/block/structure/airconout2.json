@@ -5,8 +5,8 @@
     128
   ],
   "textures": {
-    "1": "npu:block/npunew/air/double",
-    "particle": "npu:block/npunew/air/double"
+    "1": "npu:block/a/air_conditioner_frame",
+    "particle": "npu:block/a/air_conditioner_frame"
   },
   "elements": [
     {

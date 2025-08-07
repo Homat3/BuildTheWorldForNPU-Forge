@@ -1,44 +1,21 @@
 package com.tf.npu.items.dataofnpuitems;
 
-public class DataOfNpuItems
-{
-  public boolean isSpawnEgg;
-  public String ID;
-  public String creature_ID;
+import com.tf.npu.util.Reference;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 
-  public String backgroundColor;
-  public String highlightColor;
+public class DataOfNpuItems {
+    public boolean isSpawnEgg;
+    public boolean isVehicle;
+    public String ID;
+    public String creature_ID;
 
-  public Integer getBackgroundColor()
-  {
-      if (isSpawnEgg)
-          return Color.valueOf(backgroundColor).getValue();
-      else
-          return null;
-  }
+    public Item.Properties createItemProperties() {
 
-  public Integer getHighlightColor()
-  {
-      if (isSpawnEgg)
-          return Color.valueOf(highlightColor).getValue();
-      else
-          return null;
-  }
+        Item.Properties properties = new Item.Properties();
 
-  private enum Color
-  {
-      BLUE(0x0000FF), ORANGE(0xFFA500), YELLOW(0xFFFF00), GREEN(0x00FF00), PURPLE(0xA020F0), GREY(0xBEBEBE);
-
-      final Integer color;
-
-      Color(Integer color)
-      {
-          this.color = color;
-      }
-
-      Integer getValue()
-      {
-          return color;
-      }
-  }
+        ResourceLocation LOCATION = ResourceLocation.fromNamespaceAndPath(Reference.MODID, ID);
+        return properties.setId(ResourceKey.create(ResourceKey.createRegistryKey(LOCATION), LOCATION));
+    }
 }
